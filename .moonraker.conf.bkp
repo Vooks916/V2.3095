@@ -31,7 +31,7 @@ subscriptions =
 [timelapse]
 
 [spoolman]
-server = http://100.90.202.78:7912/
+server = http://100.120.144.69:7912/
 sync_rate = 5
 
 [update_manager]
@@ -90,13 +90,6 @@ origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services = klipper
 primary_branch = main
 install_script = install.sh
-
-[update_manager voron-klipper-extensions]
-type = git_repo
-path = ~/voron-klipper-extensions
-origin = https://github.com/voidtrance/voron-klipper-extensions.git
-install_script = install-extensions.sh
-managed_services = klipper
 
 [update_manager nevermore]
 type = git_repo
