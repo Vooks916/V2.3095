@@ -31,7 +31,7 @@ subscriptions =
 [timelapse]
 
 [spoolman]
-server = http://100.120.144.69:7912/
+server = https://100.120.144.69:7912
 sync_rate = 5
 
 [update_manager]
