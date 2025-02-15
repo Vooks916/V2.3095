@@ -17,6 +17,8 @@ cors_domains =
 trusted_clients = 
 	100.69.50.110
 	100.86.116.84
+	100.120.144.68
+	localhost
 	127.0.0.1
 	::1/128
 
@@ -31,7 +33,7 @@ subscriptions =
 [timelapse]
 
 [spoolman]
-server = https://100.120.144.69:7912
+server = http://100.120.144.69:7912
 sync_rate = 5
 
 [update_manager]
