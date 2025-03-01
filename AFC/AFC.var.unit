@@ -16,12 +16,12 @@
             "material": "ABS",
             "spool_id": "9",
             "color": "#FFC845",
-            "weight": 592.1,
+            "weight": 590.8892447765435,
             "extruder_temp": 260,
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Loaded"
         },
         "lane2": {
             "name": "lane2",
@@ -36,15 +36,15 @@
             "prep": true,
             "tool_loaded": false,
             "loaded_to_hub": true,
-            "material": "ABS",
-            "spool_id": "5",
-            "color": "#85592C",
-            "weight": 866.0,
-            "extruder_temp": 260,
+            "material": null,
+            "spool_id": "",
+            "color": "",
+            "weight": "",
+            "extruder_temp": null,
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loaded"
+            "status": null
         },
         "lane3": {
             "name": "lane3",
@@ -57,17 +57,17 @@
             "map": "T2",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "ABS",
             "spool_id": "3",
             "color": "#BD6200",
-            "weight": 798.6469606641463,
+            "weight": 736.214117833227,
             "extruder_temp": 260,
             "runout_lane": "NONE",
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": null
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled"
         },
         "lane4": {
             "name": "lane4",
@@ -94,13 +94,13 @@
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane3",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": "lane3"
             }
         }
     }
