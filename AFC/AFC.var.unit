@@ -39,7 +39,7 @@
             "material": "ABS",
             "spool_id": "42",
             "color": "#010202",
-            "weight": 725.4846488067033,
+            "weight": 714.7460005682475,
             "extruder_temp": 260,
             "runout_lane": "NONE",
             "filament_status": "Ready",
