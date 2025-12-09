@@ -19,7 +19,7 @@
             "empty_spool_weight": 183.0,
             "spool_id": 5,
             "color": "#85592C",
-            "weight": 77.17701932106361,
+            "weight": 57.78367111050649,
             "extruder_temp": 260,
             "runout_lane": null,
             "filament_status": "Ready",
@@ -46,7 +46,7 @@
             "empty_spool_weight": 183.0,
             "spool_id": 44,
             "color": "#010202",
-            "weight": 322.98178097068956,
+            "weight": 319.1136295569474,
             "extruder_temp": 260,
             "runout_lane": null,
             "filament_status": "Ready",
@@ -65,7 +65,7 @@
             "map": "T2",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.04,
@@ -73,12 +73,12 @@
             "empty_spool_weight": 226.0,
             "spool_id": 21,
             "color": "#FFFFFF",
-            "weight": 158.83112238534653,
+            "weight": 137.76623317584702,
             "extruder_temp": 260,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "Tool Loading",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 120.0
         },
         "lane4": {
@@ -100,7 +100,7 @@
             "empty_spool_weight": 140.0,
             "spool_id": 17,
             "color": "#DE4343",
-            "weight": 735.0374044997723,
+            "weight": 731.3134340058417,
             "extruder_temp": 260,
             "runout_lane": null,
             "filament_status": "Ready",
@@ -110,13 +110,13 @@
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane3",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": "lane3"
             }
         },
         "bypass": {
